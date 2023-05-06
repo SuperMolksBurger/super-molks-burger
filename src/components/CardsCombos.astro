@@ -1,0 +1,24 @@
+---
+import {combos} from '../data/menu.json'
+
+---
+
+
+{
+    combos.map((combo) => (
+        <div class="card bg-gray-100 rounded-xl  w-12/12 sm:w-5/12">
+            <div class="cardData flex flex-col p-4">
+                <div class="cardImg self-center">
+                    <img src={combo.img}>
+                </div>
+                <div class="cardInfo self-center flex flex-col">
+                    <h3 class=" text-center md:text-left m-0 name">Combo {combo.name}</h3>
+                    <p class="text-center md:text-left desc">{combo.desc}</p>
+                    <p class="bg-orange-400 p-1 rounded-full w-40 text-center price self-center md:self-end md:mx-4 mt-6 mb-6">${combo.price}<sup>.00</sup></p>
+                    <a class="self-center md:self-auto bg-red-700 md:hover:bg-red-800 text-white font-bold uppercase rounded-full text-center p-2 w-52" href={combo.url}>Ver más...</a>
+                </div>
+            </div>
+        </div>
+    ))
+}
+

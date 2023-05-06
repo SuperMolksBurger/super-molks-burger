@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.seccion {
+    margin-top: $separacion / 2;
+    margin-bottom: $separacion / 2;
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Margenes */
+.m-25 {
+    margin-top: 2.5rem;
+}
+
+.m-tb_25 {
+    margin: 2.5rem 0;
+}
+
+.my-16 {
+    margin: 1.6rem 0;
+}
+
+
+/* Paddings */
+
+.p-0 {
+    padding: 0;
+}
+
+.p-25 {
+    padding-top: 2.5rem 0;
+}
+
+.p-75 {
+    padding: 7.5rem;
+}
+
+/* GAPS */
+.gap-16 {
+    gap: 16px;
+}
+
+
+

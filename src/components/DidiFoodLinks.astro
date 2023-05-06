@@ -1,0 +1,10 @@
+---
+import Data from '../data/enlacesDidi.json'
+---
+
+
+{
+    Data.map( (didi) => (
+        <a class="btnDidiFood" href={didi.url} target="_blank">{didi.name}</a>
+    ))
+}

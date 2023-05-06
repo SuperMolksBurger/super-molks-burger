@@ -1,0 +1,49 @@
+<header class="head">
+    <div class="container flex flex-col md:flex-row p-4 md:justify-between items-center relative">
+        <div class="brand mx-2">
+            <img class="w-90" src="/super-molks-burger-logo.png" alt="">
+        </div>
+        <div class="nav_toggle order-1 mt-11" id="btn_toggle">
+            <a href="#">
+                <img class="w-10 block md:hidden" src="/iconos/menu.png">
+            </a>
+        </div>
+        <nav class="nav order-2  mt-5 md:mt-0 nav_hide" id="nav"> 
+            <div class="nav_links flex flex-col md:flex-row text-center">
+                <a href="/">Inicio</a>
+                <a href="#burgers">Hamburguesas</a>
+                <a href="#combos">Combos</a>
+                <a href="#hotdogs">Hot dogs</a>
+                <a href="#papas">Papas</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        stickyNav()
+    })
+
+    const toggle = document.querySelector('#btn_toggle'),
+    nav = document.querySelector('#nav'); 
+
+    // Función para mostar y ocultar el menú en versión mobile
+    toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        nav.classList.toggle('nav_show');
+    });
+
+    // Función para mostrar el fondo del header
+    function stickyNav() {
+    let scrollY = window.scrollY
+    const header = document.querySelector('.head')
+    const windowHeight = window.innerHeight
+
+    window.addEventListener('scroll', () => {
+        scrollY = window.scrollY 
+        if( scrollY >= windowHeight ) { header.classList.add('orangeBg') }
+        else { header.classList.remove('orangeBg') }
+    })
+}
+</script>

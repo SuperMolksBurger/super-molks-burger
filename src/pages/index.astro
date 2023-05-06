@@ -1,0 +1,28 @@
+---
+import Layout from '../components/Layout.astro'
+import Hero from '../components/Hero.astro'
+import CardsBurgers from '../components/CardsBurgers.astro'
+import CardsCombos from '../components/CardsCombos.astro'
+import CardsHotdogs from '../components/CardsHotdogs.astro'
+import CardsPapas from '../components/CardsPapas.astro'
+---
+
+<Layout pageTitle="Inicio">
+	<Hero/>
+	<h2  id="burgers">Hamburguesas</h2>
+	<div class="container mx-auto p-16 flex flex-col md:flex-row  flex-wrap gap-4 justify-between">
+		<CardsBurgers/>
+	</div>
+	<h2 id="combos">Combos</h2>
+	<div class="container mx-auto p-16 flex flex-col md:flex-row  flex-wrap gap-4 justify-between">
+		<CardsCombos/>
+	</div>
+	<h2 id="hotdogs">Hot dogs</h2>
+	<div class="container mx-auto p-16 flex flex-col md:flex-row  flex-wrap gap-4 justify-between">
+		<CardsHotdogs/>
+	</div>
+	<h2 id="papas">Papas</h2>
+	<div class="container mx-auto p-16 flex flex-col md:flex-row  flex-wrap gap-4 justify-between">
+		<CardsPapas/>
+	</div>
+</Layout>

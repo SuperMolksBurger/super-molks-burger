@@ -1,0 +1,44 @@
+---
+import Layout from '../../../components/Layout.astro'
+import {burgers} from '../../../data/menu.json'
+import Urls from '../../../components/DidiFoodLinks.astro'
+
+---
+
+<Layout pageTitle="Hamburguesas">
+
+	<div class="interiorTitle bg-black mb-11 mt-40">
+		<div class="container mx-auto">
+			<div class="interioTitle_info flex items-center">
+				<img class="w-24" src="/iconos/icono-combos.png" alt="">
+				<h1 class="ml-7 text-orange-400">Hamburguesas</h1>
+			</div>
+		</div>
+	</div>
+
+	{
+		<section class="ficha_producto mt-40 mb-40">
+			<div class="container p-4 md:columns-2 mx-auto">
+				<div>
+					<img src={burgers[4].img}>
+				</div>
+				<div class="ficha_producto-data md:flex md:justify-center md:flex-col p-4">
+					<h2 class="text-center md:text-left uppercase font-bold m-0">{burgers[4].name} 
+						<span class="priceInterior">${burgers[4].price}
+						<sup>.00</sup></span>
+					</h2>
+					<p class="mt-7 text-center md:text-left">
+						{burgers[4].desc}
+					</p>
+					<div class="btnList">
+            			<h3 class="text-center md:text-left mt-12">Haz tu pedido por DidiFood</h3>
+						<div class="btnList_url mt-12">
+							<Urls/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	}
+	
+</Layout>

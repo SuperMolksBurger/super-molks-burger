@@ -1,0 +1,53 @@
+<section class="heroHome">
+    <div class="heroHome_data flex flex-col">
+        <h1 class="m-0 w-1/7  text-center md:text-left">Las mejores <br> hamburguesas <br> del barrio</h1>
+        <a class="heroHome_btn  bg-orange-400 hover:bg-orange-500 text-center my-6" href="#menu">Ver menú</a>
+    </div>
+</section>
+
+<style lang="scss">
+    @import '../scss/app.scss';
+
+    .heroHome {
+        background-image: url('/fondos/fondo-mobile.jpg');
+        @include desktop {
+            background-image: url('/fondos/fondo-1.jpg');
+        }
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+
+        .heroHome_data {
+            height: 100%;
+            position: absolute;
+            top: 15%;
+            left: 13%;
+            @include desktop {
+                top: 50%;
+                left: 12rem;
+            }
+
+            h1 {
+                line-height:4rem;
+                font-size: 3rem;
+                @include desktop {
+                    font-size: 4rem;
+                }
+                text-transform: uppercase;
+                font-weight: $bold;
+            }
+
+            .heroHome_btn {
+                text-transform: uppercase;
+                border-radius: 50px;
+                @include desktop  {
+                    &:hover {
+                        transition: all 0.3s linear;
+                    }
+                }
+            }
+        }
+    }
+
+</style>

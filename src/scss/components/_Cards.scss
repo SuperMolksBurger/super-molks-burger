@@ -1,0 +1,41 @@
+/*
+    Estilos cards productos
+*/
+
+.cardData {
+    @include desktop {
+        position: relative;
+        height: 25rem;
+    }
+    .name {
+        font-family: $fuente_principal;
+        font-weight: $black;
+        font-size: 2.5rem;
+    }
+
+    .desc {
+        font-family: $fuente_secundaria;
+        font-weight: $bold;
+        font-size: 1.7rem;
+    }
+
+    .price {
+        font-size: 2.5rem;
+    }
+}
+
+.cardImg {
+    @include desktop {
+        position: absolute;
+        left: -100px;
+        width: 25rem;
+    }
+}
+
+.cardInfo {
+    @include desktop {
+        position: absolute;
+        right: 0;
+        width: 35rem;
+    }
+}

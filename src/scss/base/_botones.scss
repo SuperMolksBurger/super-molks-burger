@@ -1,0 +1,12 @@
+.boton-rojo {
+    @include boton($rojo, inline-block);
+}
+
+.boton-rojo-block {
+    @include boton($rojo, block);
+}
+
+.boton-verde {
+    @include boton($rojo, inline-block);
+}
+
