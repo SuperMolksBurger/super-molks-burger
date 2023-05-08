@@ -51,8 +51,8 @@
             "desc": "pan integral, carne selecta de sirloin, piña, queso blanco y amarillo, tocino, aderezo chipotle o ranch",
             "price": 84,
             "category": "burger",
-            "img": "/hamburguesas/sirloin-burger-super-molks.png",
-            "url": "/hamburguesas/hamburguesa-de-sirloin/"
+            "img": "/super-molks-burger/hamburguesas/sirloin-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/hamburguesa-de-sirloin/"
         }
     ],
     "combos": [
