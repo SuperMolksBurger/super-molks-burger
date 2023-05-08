@@ -6,8 +6,8 @@
             "desc": "queso blanco, amarillo, jamón, piña y tocino",
             "price": 64,
             "category": "burger",
-            "img": "/hamburguesas/especial-burger-super-molks.png",
-            "url": "/hamburguesas/hamburguesa-especial/"
+            "img": "/super-molks-burger/hamburguesas/especial-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/hamburguesa-especial/"
         },
         {
             "id": 2,
@@ -15,8 +15,8 @@
             "desc": "doble queso blanco y amarillo, coble carne, jamón, piña y tocino",
             "price": 84,
             "category": "burger",
-            "img": "/hamburguesas/doble-burger-super-molks.png",
-            "url": "/hamburguesas/hamburguesa-doble/"
+            "img": "/super-molks-burger/hamburguesas/doble-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/hamburguesa-doble/"
         },
         {
             "id": 3,
@@ -24,8 +24,8 @@
             "desc": "hamburguesa sencilla con queso amarillo",
             "price": 50,
             "category": "burger",
-            "img": "/hamburguesas/sencilla-burger-super-molks.png",
-            "url": "/hamburguesas/hamburguesa-sencilla/"
+            "img": "/super-molks-burger/hamburguesas/sencilla-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/hamburguesa-sencilla/"
         },
         {
             "id": 4,
@@ -33,8 +33,8 @@
             "desc": "queso blanco y amarillo, jamón y tocino",
             "price": 50,
             "category": "burger",
-            "img": "/hamburguesas/mini-burger-super-molks.png",
-            "url": "/hamburguesas/hamburguesa-mini/"
+            "img": "/super-molks-burger/hamburguesas/mini-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/hamburguesa-mini/"
         },
         {
             "id": 5,
@@ -42,8 +42,8 @@
             "desc": "hamburguesa vegetariana con carne 100% de soya, pan integral y tradicional",
             "price": 50,
             "category": "burger",
-            "img": "/hamburguesas/veggie-burger-super-molks.png",
-            "url": "/hamburguesas/veggie-burger/"
+            "img": "/super-molks-burger/hamburguesas/veggie-burger-super-molks.png",
+            "url": "/super-molks-burger/hamburguesas/veggie-burger/"
         },
         {
             "id": 5,
@@ -62,8 +62,8 @@
             "desc": "hamburguesa especial, porción de papas, refresco o bebida",
             "price": 99,
             "category": "combos",
-            "img": "/combos/combo-especial-super-molks-burger.png",
-            "url": "/combos/combo-especial/"
+            "img": "/super-molks-burger/combos/combo-especial-super-molks-burger.png",
+            "url": "/super-molks-burger/combos/combo-especial/"
         },
         {
             "id": 0,
@@ -71,8 +71,8 @@
             "desc": "hamburguesa sencilla, porción de papas, refresco o bebidas",
             "price": 85,
             "category": "combos",
-            "img": "/combos/combo-basico-super-molks-burger.png",
-            "url": "/combos/combo-basico/"
+            "img": "/super-molks-burger/combos/combo-basico-super-molks-burger.png",
+            "url": "/super-molks-burger/combos/combo-basico/"
         },
         {
             "id": 0,
@@ -80,8 +80,8 @@
             "desc": "2 hot dogs clásicos,porción de papas, refresco o bebida",
             "price": 81,
             "category": "combos",
-            "img": "/combos/combo-perron-super-molks-burger.png",
-            "url": "/combos/combo-perron/"
+            "img": "/super-molks-burger/combos/combo-perron-super-molks-burger.png",
+            "url": "/super-molks-burger/combos/combo-perron/"
         },
         {
             "id": 0,
@@ -89,8 +89,8 @@
             "desc": "hamburguesa mini, poricón de papas, refresco o bebida",
             "price": 85,
             "category": "combos",
-            "img": "/combos/combo-mini-super-molks-burger.png",
-            "url": "/combos/combo-mini/"
+            "img": "/super-molks-burger/combos/combo-mini-super-molks-burger.png",
+            "url": "/super-molks-burger/combos/combo-mini/"
         },
         {
             "id": 0,
@@ -98,8 +98,8 @@
             "desc": "1 hot dog el campestre, porción de papas, refresco o bebida",
             "price": 67,
             "category": "combos",
-            "img": "/combos/combo-country-super-molks-burger.png",
-            "url": "/combos/combo-country/"
+            "img": "/super-molks-burger/combos/combo-country-super-molks-burger.png",
+            "url": "/super-molks-burger/combos/combo-country/"
         }
     ],
     "hotdogs": [
@@ -108,16 +108,16 @@
             "name": "clásico",
             "price": 23,
             "category": "hot-dogs",
-            "img": "/extras/hot-dog-clasico-super-molks-burger.png",
-            "url": "/hot-dogs/hot-dog-clasico"
+            "img": "/super-molks-burger/extras/hot-dog-clasico-super-molks-burger.png",
+            "url": "/super-molks-burger/hot-dogs/hot-dog-clasico"
         },
         {
             "id": 1,
             "name": "campestre",
             "price": 32,
             "category": "hot-dogs",
-            "img": "/combos/combo-country-super-molks-burger.png",
-            "url": "/hot-dogs/hot-dog-campestre"
+            "img": "/super-molks-burger/combos/combo-country-super-molks-burger.png",
+            "url": "/super-molks-burger/hot-dogs/hot-dog-campestre"
         }
     ],
     "papas": [
@@ -126,24 +126,24 @@
             "name": "Francesitas",
             "price": 45,
             "category": "papas",
-            "img": "/extras/papas-a-la-francesa-super-molks-burger.png",
-            "url": "/papas/papas-a-la-francesa"
+            "img": "/super-molks-burger/extras/papas-a-la-francesa-super-molks-burger.png",
+            "url": "/super-molks-burger/papas/papas-a-la-francesa"
         },
         {
             "id": 1,
             "name": "Rejillas de papa",
             "price": 50,
             "category": "papas",
-            "img": "/extras/papas-de-gajo-super-molks-burger.png",
-            "url": "/papas/rejillas-de-papa"
+            "img": "/super-molks-burger/extras/papas-de-gajo-super-molks-burger.png",
+            "url": "/super-molks-burger/papas/rejillas-de-papa"
         },
         {
             "id": 2,
             "name": "Gajitos de papa",
             "price": 50,
             "category": "papas",
-            "img": "/extras/papas-a-la-francesa-super-molks-burger.png",
-            "url": "/papas/gajitos-de-papa"
+            "img": "/super-molks-burger/extras/papas-a-la-francesa-super-molks-burger.png",
+            "url": "/super-molks-burger/papas/gajitos-de-papa"
         }
     ],
     "snacks": [
@@ -152,14 +152,14 @@
             "name": "Banderillas",
             "price": 20,
             "category": "snacks",
-            "img": "/combos/combo-country-super-molks-burger.png"
+            "img": "/super-molks-burger/combos/combo-country-super-molks-burger.png"
         },
         {
             "id": 1,
             "name": "Aros de cebolla",
             "price": 50,
             "category": "snacks",
-            "img": "/combos/combo-country-super-molks-burger.png"
+            "img": "/super-molks-burger/combos/combo-country-super-molks-burger.png"
         }
     ]
 }
