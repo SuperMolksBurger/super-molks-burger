@@ -2,7 +2,6 @@
   "name": "deeply-doppler",
   "type": "module",
   "version": "0.0.1",
-  "homepage": "https://SuperMolksBurger.github.io/super-molks-burger/",
 
   "scripts": {
     "dev": "astro dev",
