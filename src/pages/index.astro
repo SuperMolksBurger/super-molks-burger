@@ -5,6 +5,7 @@ import CardsBurgers from '../components/CardsBurgers.astro'
 import CardsCombos from '../components/CardsCombos.astro'
 import CardsHotdogs from '../components/CardsHotdogs.astro'
 import CardsPapas from '../components/CardsPapas.astro'
+import CardsLocaciones from '../components/CardsLocaciones.astro'
 ---
 
 <Layout pageTitle="Inicio">
@@ -24,5 +25,9 @@ import CardsPapas from '../components/CardsPapas.astro'
 	<h2 id="papas">Papas</h2>
 	<div class="container mx-auto p-16 flex flex-col md:flex-row  flex-wrap gap-4 justify-between">
 		<CardsPapas/>
+	</div>
+	<h2 id="papas">Sucursales</h2>
+	<div class="container mx-auto p-16 grid auto-cols-max grid-cols-12 gap-4">
+		<CardsLocaciones/>
 	</div>
 </Layout>

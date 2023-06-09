@@ -39,3 +39,30 @@
         width: 35rem;
     }
 }
+
+/*
+    Cards Locaciones
+*/
+.card-location {
+    h4 {
+        font-size: 2.5rem;
+        font-family: $fuente_principal;
+        text-align: center;
+    }
+}
+
+.location_data {
+    p {
+        font-family: $fuente_secundaria;
+
+        font-size: 1.8rem;
+        font-weight: $bold;
+        text-align: center;
+        span {
+            background-color: $primario;
+            padding: 0.3rem 0.6rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+        }
+    }
+}

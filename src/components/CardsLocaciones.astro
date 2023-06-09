@@ -1,0 +1,21 @@
+---
+    import Data from '../data/locaciones.json'
+---
+
+
+
+{
+    Data.map( (data) => (
+        <div class="card-location p-4 bg-gray-100  rounded-xl col-span-12  md:col-span-4">
+            <img class="w-36 mx-auto" src="../public/location-pointer.png">
+            <h4>{data.nombre}</h4>
+            <div class="location_data">
+                <p>
+                    {data.dir}
+                    <br>
+                    <span>{data.horario}</span>
+                </p>
+            </div>
+        </div>
+    ))
+}
