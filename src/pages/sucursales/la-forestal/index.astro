@@ -1,0 +1,44 @@
+---
+import Layout from '../../../components/Layout.astro'
+import Data from '../../../data/locaciones.json'
+import DidiURL from '../../../data/enlacesDidi.json'
+---
+
+<Layout pageTitle="Sucursal Camino Real">
+
+    <div class="interiorTitle bg-black mb-11 mt-40">
+		<div class="container mx-auto">
+			<div class="interioTitle_info flex items-center">
+				<img class="w-24" src="/iconos/icono-combos.png" alt="">
+				<h1 class="ml-7 text-orange-400">Sucursal | {Data[2].nombre}</h1>
+			</div>
+		</div>
+	</div>
+    
+    {
+        <div class="contenido-centrado mx-auto p-9">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58291.31797954785!2d-104.70134345912028!3d24.0590008110466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc80223ba6e63%3A0x7ce767a41fe2f082!2sSuper%20Molk&#39;%20s%20Burger!5e0!3m2!1ses-419!2smx!4v1686505411676!5m2!1ses-419!2smx" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="locationData p-9 grid auto-cols-max grid-cols-12 gap-4">
+                <div class="col-span-12 md:col-span-6">
+                    <h3 class="text-left">Horario</h3>
+                    <ul class="p-0 mt-4">
+                        <li><span class="day font-bold">Lunes</span> - 18:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Martes</span> - 18:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Miércoles</span> - 18:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Jueves</span> - 18:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Viernes</span> - 1:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Sábado</span> - 1:00 PM - 1:00 AM</li>
+                        <li><span class="day font-bold">Domingo</span> - 1:00 PM - 1:00 AM</li>
+                    </ul>
+                </div>
+                <div class="col-span-12 md:col-span-6">
+                    <h3 class="text-left">Pide por DidiFood</h3>
+                    <a class="bg-orange-400 rounded-full p-4 mt-4 inline-block md:hover:bg-orange-500" href={ DidiURL[2].url } target="_blank">Didifood La Forestal</a>
+                </div>
+            </div>
+        </div>
+    }
+
+</Layout>

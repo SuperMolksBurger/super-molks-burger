@@ -9,12 +9,13 @@
         <div class="card-location p-4 bg-gray-100  rounded-xl col-span-12  md:col-span-4">
             <img class="w-36 mx-auto" src="/super-molks-burger/location-pointer.png">
             <h4>{data.nombre}</h4>
-            <div class="location_data">
+            <div class="location_data text-center">
                 <p>
                     {data.dir}
                     <br>
                     <span>{data.horario}</span>
                 </p>
+                <a class="text-center inline-block bg-red-700 md:hover:bg-red-800 rounded-full p-2 mt-10 text-white" href={data.url}>Ver más...</a>
             </div>
         </div>
     ))

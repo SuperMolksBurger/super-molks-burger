@@ -1,17 +1,20 @@
 [
     {
-        "nombre": "Super Molk's Burger | Politecnico Nacional",
-        "dir": "Instituto Politécnico Nacion #120",
-        "horario": "Abierto a partir de las 6 PM"
+        "nombre": "Camino Real",
+        "dir": "Instituto Politécnico Nacional #120",
+        "horario": "Abierto a partir de las 6 PM",
+        "url": "/super-molks-burger/sucursales/camino-real/"
     },
     {
-        "nombre": "Super Molk's Burger | Nazas y Circuito",
+        "nombre": "Nazas y Circuito",
         "dir": "Calle Nazas #802",
-        "horario": "Abierto a partir de las 6 PM"
+        "horario": "Abierto a partir de las 6 PM",
+        "url": "/super-molks-burger/sucursales/nazas-y-circuito/"
     },
     {
-        "nombre": "Super Molk's Burger | La Forestal",
+        "nombre": "La Forestal",
         "dir": "Blvd. Luis Donaldo Colosio M. 327-l1",
-        "horario": "Abierto a partir de las 6 PM"
+        "horario": "Abierto a partir de las 6 PM",
+        "url": "/super-molks-burger/sucursales/la-forestal/"
     }
 ]
